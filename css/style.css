@@ -617,7 +617,7 @@ header {
 }
 
 form {
-    /*display: grid;*/
+    /*display: grid;*/                   
     /*grid-template-columns: 1fr 2fr;*/ /*this was making the login screen not on the center */
     /*grid-gap: 16px; */ /*this is not working.*/
     font-family: 'Open Sans', sans-serif;
@@ -888,7 +888,7 @@ to open and clsoe the topnav*/
   .wrapper {
       display: grid;
       grid-template-columns: 1fr;
-      /*grid-area: 1em;*/ /*this code is not w3c validate*/
+      grid-gap: 1em;
       grid-template-areas: 
       "top"
       "text"
@@ -1047,7 +1047,7 @@ a:hover {
      .wrapper {
       display: grid;
       grid-template-columns: 1fr;
-      /*grid-area: 1em;*/ /*this code is not validate*/
+      grid-gap: 1em;
       grid-template-areas: 
       "top" 
       "text"
