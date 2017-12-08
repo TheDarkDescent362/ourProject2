@@ -743,6 +743,7 @@ ul, li {
 /* ===== START OF FORM STYLING ===== */
 
 .lookup form {
+  display: grid;
   grid-template-columns: 50px 2fr;
   grid-area: 1em;
   font-family: 'Open Sans', sans-serif;
