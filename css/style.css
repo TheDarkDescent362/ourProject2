@@ -669,10 +669,6 @@ body {
 .lookuph2 {
     display: block;
     font-size: 1.5em;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
     font-weight: bold;
 }
 
@@ -702,7 +698,7 @@ a:hover{
   display: grid;
   grid-template-columns: 1fr;
   grid-row: auto;
- grid-area: 1em;
+ grid-gap: 1em;
 }
 
 .footer {
@@ -745,7 +741,7 @@ ul, li {
 .lookup form {
   display: grid;
   grid-template-columns: 50px 2fr;
-  grid-area: 1em;
+  grid-gap: 1em;
   font-family: 'Open Sans', sans-serif;
 
 }
